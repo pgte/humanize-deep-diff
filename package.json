@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/pgte/humanize-deep-diff/issues"
   },
-  "homepage": "https://github.com/pgte/humanize-deep-diff#readme"
+  "homepage": "https://github.com/pgte/humanize-deep-diff#readme",
+  "devDependencies": {
+    "deep-diff": "^1.0.2"
+  }
 }

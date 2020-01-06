@@ -17,8 +17,9 @@ const KINDS = {
 function humanizeOneDif (diff) {
   const parts = [KINDS[diff.kind]]
   if (diff.kind === 'N') {
-    parts.push('in')
-    parts.push(diff.path.join('.'))
+    parts.push('in path')
+    parts.push(stringify(diff.path.join('.')))
+    parts.push('with value')
     parts.push(stringify(diff.rhs))
   } else if (diff.kind === 'D') {
     parts.push(diff.path.join('.'))
