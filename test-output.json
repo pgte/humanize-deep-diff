@@ -1,0 +1,8 @@
+[
+  "Changed property world.teams.0.units.5.arm.rounds from 0 to 30",
+  "Array changed in position 3 of world.teams.0.units.1.arms : removed {\"type\":\"arm\",\"name\":\"MACHINE_GUN_CLIP\",\"rounds\":30,\"precision\":0,\"bulletDamage\":0}",
+  "Changed property world.teams.0.units.5.arms.0.name from \"MACHINE_GUN_CLIP\" to \"GRENADE\"",
+  "Changed property world.teams.0.units.5.arms.0.rounds from 30 to 0",
+  "Changed property world.teams.0.units.5.actionPoints from 90 to 80",
+  "Array changed in position 1 of world.teams : new element: {\"type\":\"team\",\"name\":\"defenders\",\"attacks\":false,\"units\":[],\"armourPoints\":1000,\"armPoints\":1000}"
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "kind": "E",
+    "path": [
+      "world",
+      "teams",
+      0,
+      "units",
+      5,
+      "arm",
+      "rounds"
+    ],
+    "lhs": 0,
+    "rhs": 30
+  },
+{
+    "kind": "A",
+    "path": [
+      "world",
+      "teams",
+      0,
+      "units",
+      1,
+      "arms"
+    ],
+    "index": 3,
+    "item": {
+      "kind": "D",
+      "lhs": {
+        "type": "arm",
+        "name": "MACHINE_GUN_CLIP",
+        "rounds": 30,
+        "precision": 0,
+        "bulletDamage": 0
+      }
+    }
+  },
+  {
+    "kind": "E",
+    "path": [
+      "world",
+      "teams",
+      0,
+      "units",
+      5,
+      "arms",
+      0,
+      "name"
+    ],
+    "lhs": "MACHINE_GUN_CLIP",
+    "rhs": "GRENADE"
+  },
+  {
+    "kind": "E",
+    "path": [
+      "world",
+      "teams",
+      0,
+      "units",
+      5,
+      "arms",
+      0,
+      "rounds"
+    ],
+    "lhs": 30,
+    "rhs": 0
+  },
+  {
+    "kind": "E",
+    "path": [
+      "world",
+      "teams",
+      0,
+      "units",
+      5,
+      "actionPoints"
+    ],
+    "lhs": 90,
+    "rhs": 80
+  },
+  {
+      "kind": "A",
+      "path": [
+        "world",
+        "teams"
+      ],
+      "index": 1,
+      "item": {
+        "kind": "N",
+        "rhs": {
+          "type": "team",
+          "name": "defenders",
+          "attacks": false,
+          "units": [],
+          "armourPoints": 1000,
+          "armPoints": 1000
+        }
+      }
+    }
+]

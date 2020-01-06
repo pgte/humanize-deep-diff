@@ -1,0 +1,24 @@
+{
+  "name": "humanize-deep-diff",
+  "version": "0.1.0",
+  "description": "Human (English) description of a deep-diff output",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgte/humanize-deep-diff.git"
+  },
+  "keywords": [
+    "humanize",
+    "deep",
+    "diff"
+  ],
+  "author": "Pedro Teixeira <i@pgte.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgte/humanize-deep-diff/issues"
+  },
+  "homepage": "https://github.com/pgte/humanize-deep-diff#readme"
+}
